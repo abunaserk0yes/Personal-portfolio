@@ -1,0 +1,178 @@
+body{
+    font-family: 'Merriweather', serif;
+}
+section{
+    padding:150px 0;
+}
+h1{
+    font-size:50px;
+}
+.menu-bar{
+    height:50px;
+    float: right;
+}
+.menu-bar ul{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+.menu-bar ul li{
+    display: inline-block;
+    margin:50px 20px 0px 10px;
+}
+.menu-bar ul li a{
+    font-size:20px;
+    font-weight:600;
+    padding:10px 22px;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius:3px;
+    color:#3C3C3C;
+    background-color:white;
+}
+.menu-bar ul li a:hover{
+    background-image: linear-gradient(tomato,salmon);
+}
+.top-banner{
+    height:60vh;
+}
+.half-div{
+    float:left;
+    width:40%;
+    padding-left:5%;
+    margin-left:5%;
+}
+.half-div img{
+    float: right;
+    width:100%;
+}
+.half-div h1,.half-about-banner h1{
+    color:#363958;
+    font-size:45px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.hightlight-text,.card-highlight-text{
+    color: deeppink;
+}
+.half-div p{
+    width:300px;
+    font-size:15px;
+    color: dimgray;
+}
+.top-banner-btn,.btn{
+    font-size:17px;
+    text-decoration: none;
+    background-image: linear-gradient(tomato,salmon);
+    padding:15px 30px;
+    margin-top:15px;
+    display:inline-block;
+    font-weight: bold;
+    border-radius:3px;
+    color: white;
+}
+.about-banner{
+    height:70vh;
+}
+.half-about-banner{
+    float: left;
+    width:40%;
+    height:500px;
+    padding-left:5%;
+    margin-left:5%;
+}
+.half-about-banner img{
+    width:100%;
+}
+.half-about-banner p{
+    width:450px;
+    text-align: justify;
+    color:dimgray;
+}
+.card-banner{
+    margin-top:80px;
+    background-color: #E5E5E5;
+    height:80vh;
+}
+.card-banner h2{
+    text-align: center;
+    font-size: 33px;
+    font-weight: 900;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.card {
+    background: #fff;
+    width: 25%;
+    padding-left: 34px;
+    margin:0 0 50px 56px;
+    float: left;
+    box-shadow: 10px 10px 30px #000;
+    border-radius:5px;
+}
+.card-image{
+    width:auto;
+    height:auto;
+}
+.card-image img{
+    width:auto;
+    height:180px;
+    margin-top:10%;
+}
+.card-body h3 {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 6% 0;
+}
+.card-body p {
+    font-size: 15px;
+    color: dimgray;
+    width: auto;
+    margin: 9% 0;
+}
+.inquery-banner{
+    height:50vh;
+}
+.sub-inquery{
+    background-image:url(images/inquery-bg.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius:30px;
+    margin:0 auto;
+    height: 200px;
+    width:70%;
+}
+.half-inquery-text{
+    height:50px;
+    float: left;
+    font-size:27px;
+    padding-left:7%;
+    margin-top:6%;
+    text-transform: uppercase;
+    color:white;
+}
+.half-inquery-btn{
+    float: right;
+    padding-right:10%;
+    margin-top:7%;
+    text-transform: capitalize;
+}
+.contact-banner{
+    text-align: center;
+    margin-top:5%;
+}
+.social-icon img{
+    width:40px;
+    height:40px;
+    margin-left:15px;
+}
+.contact-banner h4{
+    color:dimgray;
+    font-size:18px;
+    text-transform: capitalize;
+}
+.contact-banner h2{
+    color: #363958;
+}
