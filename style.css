@@ -1,11 +1,26 @@
 body{
     font-family: 'Merriweather', serif;
 }
+html{
+   scroll-behavior: smooth;
+}
 section{
     padding:150px 0;
 }
 h1{
     font-size:50px;
+}
+nav{
+    height:100px;
+}
+.logo{
+    float: left;
+    margin-top:45px;
+    padding-left:40px;
+}
+.logo a i{
+    font-size: 50px;
+    color: #000 ;
 }
 .menu-bar{
     height:50px;
@@ -34,7 +49,7 @@ h1{
     background-image: linear-gradient(tomato,salmon);
 }
 .top-banner{
-    height:60vh;
+    height:70vh;
 }
 .half-div{
     float:left;
@@ -91,7 +106,7 @@ h1{
     color:dimgray;
 }
 .card-banner{
-    margin-top:80px;
+    margin-top:50px;
     background-color: #E5E5E5;
     height:80vh;
 }
@@ -130,6 +145,47 @@ h1{
     color: dimgray;
     width: auto;
     margin: 9% 0;
+}
+.testimonial-banner{
+    height:70vh;
+}
+.Exp-title{
+    text-align: center;
+    color:darkorchid;
+    text-transform: uppercase;
+}
+.test{
+    float: left;
+    width:35%;
+    height:400px;
+    margin-left: 6%;
+    padding-left: 6%;
+    text-align: center;
+    box-shadow:15px 15px 30px #a89797;
+    border-radius:5px;
+}
+.clint-photo{
+    width:400px;
+    text-align: center;
+}
+.clint-photo img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    margin-top:40px;
+}
+.clint-comment{
+    width:400px;
+    text-align: center;
+    margin-top:30px;
+}
+.clint-comment h3{
+    color:lime;
+    font-size:25px;
+}
+.clint-comment q{
+    color:dimgray;
+    font-size:21px;
 }
 .inquery-banner{
     height:50vh;
